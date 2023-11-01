@@ -9,7 +9,7 @@ import schema
 app = FastAPI()
     #   
 #A Trang Chu 
-@app.get("/",description = 'Chủ đề: Quản lý thư viện sách\n\n Thành viên nhóm\n\n A38878-Nguyễn Hữu Tuấn\n\n A39786-Trịnh Bình Phước')
+@app.get("/",description = 'Chủ đề: Quản lý thư viện sách')
 def main():
     textmain= "Chủ đề: Quản lý thư viện Sách"
     return textmain
